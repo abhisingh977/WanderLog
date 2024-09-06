@@ -1,5 +1,8 @@
 # Use an official Python runtime as the base image
 FROM python:3.9-slim
+# Set environment variables
+ENV PIP_NO_CACHE_DIR=false
+ENV PIP_PROGRESS_BAR=off
 
 # Set the working directory in the container
 WORKDIR /app
@@ -8,7 +11,7 @@ WORKDIR /app
 COPY . /app
 COPY requirements.txt .
 RUN pip install --upgrade pip
-RUN cat requirements.txt | xargs -n 1 pip install
+RUN pip install -r requirements.txt
 # Install the required packages
 # RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
