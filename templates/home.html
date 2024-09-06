@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoSocial - Interactive World Map</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-500 text-lg">GeoSocial</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Home</a>
+                    <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Explore</a>
+                    <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-green-500 hover:text-white transition duration-300">Profile</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto mt-8 px-4">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="p-4 border-b bg-gray-50">
+                <h2 class="text-2xl font-semibold text-gray-800">Interactive World Map</h2>
+            </div>
+            <div class="p-4">
+                <p class="text-gray-600 mb-4">Explore our interactive world map and discover interesting locations!</p>
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe src="{{ url_for('static', filename='interactive_world_map2.html') }}" class="w-full h-[600px] border-0 rounded-lg shadow-md" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
