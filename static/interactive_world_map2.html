@@ -5242,34 +5242,69 @@
         ], {}
     );
 </script>
-
 <script>
     function findMarkerByCity(city, state, country) {
+        // ... existing code ...
+    }
+
+    function findMarkersByState(state, country) {
+        let markers = [];
         for (let layer of marker_cluster_2e31b40dc2f6e70bf73e1c9a27cfabcb.getLayers()) {
             if (layer.getPopup()) {
                 let popupContent = layer.getPopup().getContent();
                 if (typeof popupContent === 'string') {
-                    if (popupContent.includes(city) && popupContent.includes(state) && popupContent.includes(country)) {
-                        return layer;
+                    if (popupContent.includes(state) && popupContent.includes(country)) {
+                        markers.push(layer);
                     }
                 } else if (popupContent instanceof HTMLElement) {
                     let text = popupContent.textContent;
-                    if (text.includes(city) && text.includes(state) && text.includes(country)) {
-                        return layer;
+                    if (text.includes(state) && text.includes(country)) {
+                        markers.push(layer);
                     }
                 }
             }
         }
-        return null;
+        return markers;
     }
 
-    // Add this event listener to handle messages from the parent window
+    function findMarkersByCountry(country) {
+        let markers = [];
+        for (let layer of marker_cluster_2e31b40dc2f6e70bf73e1c9a27cfabcb.getLayers()) {
+            if (layer.getPopup()) {
+                let popupContent = layer.getPopup().getContent();
+                if (typeof popupContent === 'string') {
+                    if (popupContent.includes(country)) {
+                        markers.push(layer);
+                    }
+                } else if (popupContent instanceof HTMLElement) {
+                    let text = popupContent.textContent;
+                    if (text.includes(country)) {
+                        markers.push(layer);
+                    }
+                }
+            }
+        }
+        return markers;
+    }
+
     window.addEventListener('message', function(event) {
         if (event.data.action === 'zoomToCity') {
             let marker = findMarkerByCity(event.data.city, event.data.state, event.data.country);
             if (marker) {
                 map_7fca6c7591e9dbad846db39f6385875d.setView(marker.getLatLng(), 10);
                 marker.openPopup();
+            }
+        } else if (event.data.action === 'zoomToState') {
+            let markers = findMarkersByState(event.data.state, event.data.country);
+            if (markers.length > 0) {
+                let group = L.featureGroup(markers);
+                map_7fca6c7591e9dbad846db39f6385875d.fitBounds(group.getBounds().pad(0.1));
+            }
+        } else if (event.data.action === 'zoomToCountry') {
+            let markers = findMarkersByCountry(event.data.country);
+            if (markers.length > 0) {
+                let group = L.featureGroup(markers);
+                map_7fca6c7591e9dbad846db39f6385875d.fitBounds(group.getBounds().pad(0.1));
             }
         }
     }, false);

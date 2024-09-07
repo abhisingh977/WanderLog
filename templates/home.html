@@ -64,8 +64,9 @@
                 <div class="p-4 max-h-96 overflow-y-auto">
                     <ul class="list-disc list-inside">
                         {% for state in cities | map(attribute='state') | unique | sort %} {% if state != '' %}
-                        <li class="text-gray-600">{{ state }}, {{ cities | selectattr('state', 'equalto', state) | map(attribute='country') | first }}</li>
+                        <li class="text-gray-600 cursor-pointer hover:text-blue-500" onclick="zoomToState('{{ state }}', '{{ cities | selectattr('state', 'equalto', state) | map(attribute='country') | first }}')">{{ state }}, {{ cities | selectattr('state', 'equalto', state) | map(attribute='country') | first }}</li>
                         {% endif %} {% endfor %}
+                    </ul>
                 </div>
             </div>
 
@@ -77,7 +78,7 @@
                 <div class="p-4 max-h-96 overflow-y-auto">
                     <ul class="list-disc list-inside">
                         {% for country in cities | map(attribute='country') | unique | sort %}
-                        <li class="text-gray-600">{{ country }}</li>
+                        <li class="text-gray-600 cursor-pointer hover:text-blue-500" onclick="zoomToCountry('{{ country }}')">{{ country }}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -93,12 +94,31 @@
 
     <script>
         function zoomToCity(city, state, country) {
+            sendZoomMessage('zoomToCity', {
+                city,
+                state,
+                country
+            });
+        }
+
+        function zoomToState(state, country) {
+            sendZoomMessage('zoomToState', {
+                state,
+                country
+            });
+        }
+
+        function zoomToCountry(country) {
+            sendZoomMessage('zoomToCountry', {
+                country
+            });
+        }
+
+        function sendZoomMessage(action, data) {
             const mapIframe = document.querySelector('iframe');
             mapIframe.contentWindow.postMessage({
-                action: 'zoomToCity',
-                city: city,
-                state: state,
-                country: country
+                action: action,
+                ...data
             }, '*');
         }
     </script>
