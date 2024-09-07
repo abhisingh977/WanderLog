@@ -5244,8 +5244,24 @@
 </script>
 <script>
     function findMarkerByCity(city, state, country) {
-        // ... existing code ...
+        for (let layer of marker_cluster_2e31b40dc2f6e70bf73e1c9a27cfabcb.getLayers()) {
+            if (layer.getPopup()) {
+                let popupContent = layer.getPopup().getContent();
+                if (typeof popupContent === 'string') {
+                    if (popupContent.includes(city) && popupContent.includes(state) && popupContent.includes(country)) {
+                        return layer;
+                    }
+                } else if (popupContent instanceof HTMLElement) {
+                    let text = popupContent.textContent;
+                    if (text.includes(city) && text.includes(state) && text.includes(country)) {
+                        return layer;
+                    }
+                }
+            }
+        }
+        return null;
     }
+
 
     function findMarkersByState(state, country) {
         let markers = [];
