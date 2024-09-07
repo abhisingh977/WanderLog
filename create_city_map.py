@@ -4,7 +4,6 @@ from folium.plugins import MarkerCluster
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut, GeocoderUnavailable
 from tqdm import tqdm
-import time
 
 def get_city_name(lat, lon, max_retries=3, timeout=2):
     geolocator = Nominatim(user_agent="my_app", timeout=timeout)
@@ -13,24 +12,22 @@ def get_city_name(lat, lon, max_retries=3, timeout=2):
         try:
             location = geolocator.reverse(f"{lat}, {lon}")
             address = location.raw['address']
-            country_code = address.get('country_code', '')
-            # print(country_code)
+            state = address.get('state', '')
+            country = address.get('country', '')
             city = address.get('city', '')
             if not city:
                 city = address.get('town', '')
-            city_name = city + ", " + country_code
-            # print(city_name)
+            city_name = city + ", " + state + ", " + country
+            
             return city_name or 'Unknown'
         except (GeocoderTimedOut, GeocoderUnavailable) as e:
             if attempt == max_retries - 1:
                 print(f"Failed to get city name for {lat}, {lon}: {e}")
                 return 'Unknown'
-            # time.sleep(2)  # Wait for 2 seconds before retrying
+
         except Exception as e:
             print(f"Unexpected error for {lat}, {lon}: {e}")
             return 'Unknown'
-
-
 
 def get_city_center(city_name):
     geolocator = Nominatim(user_agent="my_app")
@@ -51,6 +48,7 @@ def plot_geo_locations_on_world_map(json_file):
     # Create a map centered on the mean of all coordinates
     world_map = folium.Map()
     unique_locations = set()
+    city_data = {}  
     # Create a MarkerCluster
     marker_cluster = MarkerCluster().add_to(world_map)
 
@@ -66,20 +64,23 @@ def plot_geo_locations_on_world_map(json_file):
                 if city_name not in unique_locations:
                     unique_locations.add(city_name)
                     city_center = get_city_center(city_name)
-
+                    
                     if city_center:
+                    # Store city information in the dictionary
+                        city_data[city_name] = {
+                            'center': city_center,
+                            'lat': lat,
+                            'lon': lon
+                        }
                         folium.Marker(
                             location=city_center,
                             popup=f"{city_name}",
                             tooltip=city_name
                         ).add_to(marker_cluster)
-                    else:
-                        print(f"Couldn't find center for {city_name}, using original coordinates")
-                        folium.Marker(
-                            location=[lat, lon],
-                            popup=f"{city_name}",
-                            tooltip=city_name
-                        ).add_to(marker_cluster)
+                
+    # Save city_data to a JSON file
+    with open('city_data.json', 'w') as f:
+        json.dump(city_data, f, indent=2)
 
     # Fit the map to the bounds of all markers
     world_map.fit_bounds(world_map.get_bounds())
@@ -87,5 +88,4 @@ def plot_geo_locations_on_world_map(json_file):
     # Save the map as an HTML file
     world_map.save("interactive_world_map2.html")
 
-# Usage
 plot_geo_locations_on_world_map('location-history.json')

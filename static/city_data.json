@@ -1,0 +1,1370 @@
+{
+  ", Uttar Pradesh, India": {
+    "center": [
+      27.1303344,
+      80.859666
+    ],
+    "lat": 26.750047,
+    "lon": 83.400841
+  },
+  "Gorakhpur, Uttar Pradesh, India": {
+    "center": [
+      26.6677977,
+      83.364233378331
+    ],
+    "lat": 26.74858,
+    "lon": 83.403418
+  },
+  "Dadri, Delhi, India": {
+    "center": [
+      28.585432,
+      77.2996847
+    ],
+    "lat": 28.588719,
+    "lon": 77.307413
+  },
+  "Ghaziabad, Uttar Pradesh, India": {
+    "center": [
+      28.7678881,
+      77.46066723508514
+    ],
+    "lat": 28.753182,
+    "lon": 77.497066
+  },
+  "New Delhi, Delhi, India": {
+    "center": [
+      28.6138954,
+      77.2090057
+    ],
+    "lat": 28.612912,
+    "lon": 77.22951
+  },
+  "Noida, Uttar Pradesh, India": {
+    "center": [
+      28.5706333,
+      77.3272147
+    ],
+    "lat": 28.563807,
+    "lon": 77.32606
+  },
+  "Muradnagar, Uttar Pradesh, India": {
+    "center": [
+      28.7733808,
+      77.5033582
+    ],
+    "lat": 28.758767,
+    "lon": 77.500501
+  },
+  "Pimpri-Chinchwad, Maharashtra, India": {
+    "center": [
+      18.6279288,
+      73.8009829
+    ],
+    "lat": 18.625126,
+    "lon": 73.860838
+  },
+  "Pune City, Maharashtra, India": {
+    "center": [
+      18.5213738,
+      73.8545071
+    ],
+    "lat": 18.575089,
+    "lon": 73.763242
+  },
+  ", Delhi, India": {
+    "center": [
+      28.6273928,
+      77.1716954
+    ],
+    "lat": 28.544976,
+    "lon": 77.192628
+  },
+  "Gurgaon, Haryana, India": {
+    "center": [
+      28.4646148,
+      77.0299194
+    ],
+    "lat": 28.459147,
+    "lon": 77.072533
+  },
+  "Greater Noida, Uttar Pradesh, India": {
+    "center": [
+      28.4670734,
+      77.5137649
+    ],
+    "lat": 28.452878,
+    "lon": 77.525994
+  },
+  "Gonda, Uttar Pradesh, India": {
+    "center": [
+      27.1103723,
+      81.92389055909715
+    ],
+    "lat": 27.124379,
+    "lon": 81.944162
+  },
+  "Modinagar, Uttar Pradesh, India": {
+    "center": [
+      28.8249937,
+      77.54293140797301
+    ],
+    "lat": 28.831959,
+    "lon": 77.573278
+  },
+  "Faridabad, Haryana, India": {
+    "center": [
+      28.4031478,
+      77.3105561
+    ],
+    "lat": 28.460896,
+    "lon": 77.315571
+  },
+  "Lucknow, Uttar Pradesh, India": {
+    "center": [
+      26.8381,
+      80.9346001
+    ],
+    "lat": 26.831067,
+    "lon": 80.924408
+  },
+  "Barabanki, Uttar Pradesh, India": {
+    "center": [
+      26.942140600000002,
+      81.38560869842297
+    ],
+    "lat": 26.896373,
+    "lon": 81.086087
+  },
+  ", Himachal Pradesh, India": {
+    "center": [
+      31.81676015,
+      77.34932051968858
+    ],
+    "lat": 32.245208,
+    "lon": 76.332541
+  },
+  "Dharamshala, Himachal Pradesh, India": {
+    "center": [
+      32.2143039,
+      76.3196717
+    ],
+    "lat": 32.232492,
+    "lon": 76.324168
+  },
+  "fafrana, Uttar Pradesh, India": {
+    "center": [
+      28.8320391,
+      77.5657453
+    ],
+    "lat": 28.835074,
+    "lon": 77.569717
+  },
+  "Bangarmau, Uttar Pradesh, India": {
+    "center": [
+      26.8916447,
+      80.21506
+    ],
+    "lat": 26.909556,
+    "lon": 80.242139
+  },
+  "Chicago, Illinois, United States": {
+    "center": [
+      41.8755616,
+      -87.6244212
+    ],
+    "lat": 41.974162,
+    "lon": -87.907321
+  },
+  "Cupertino, California, United States": {
+    "center": [
+      37.3228934,
+      -122.0322895
+    ],
+    "lat": 37.335726,
+    "lon": -122.015423
+  },
+  "San Francisco, California, United States": {
+    "center": [
+      37.7792588,
+      -122.4193286
+    ],
+    "lat": 37.619253,
+    "lon": -122.381574
+  },
+  "Palo Alto, California, United States": {
+    "center": [
+      37.4443293,
+      -122.1598465
+    ],
+    "lat": 37.442548,
+    "lon": -122.158218
+  },
+  "San Jose, California, United States": {
+    "center": [
+      37.3361663,
+      -121.890591
+    ],
+    "lat": 37.230279,
+    "lon": -121.869773
+  },
+  "Varanasi, Uttar Pradesh, India": {
+    "center": [
+      25.3356491,
+      83.0076292
+    ],
+    "lat": 25.290284,
+    "lon": 82.991478
+  },
+  ", Uttarakhand, India": {
+    "center": [
+      30.0417376,
+      79.089691
+    ],
+    "lat": 30.126498,
+    "lon": 78.330039
+  },
+  "Rishikesh, Uttarakhand, India": {
+    "center": [
+      30.1086537,
+      78.2916193
+    ],
+    "lat": 30.112742,
+    "lon": 78.295762
+  },
+  "Deoria, Uttar Pradesh, India": {
+    "center": [
+      26.423991100000002,
+      83.7638577758042
+    ],
+    "lat": 26.488068,
+    "lon": 83.790139
+  },
+  ", California, United States": {
+    "center": [
+      36.7014631,
+      -118.755997
+    ],
+    "lat": 37.193974,
+    "lon": -121.80732
+  },
+  "Los Gatos, California, United States": {
+    "center": [
+      37.226611,
+      -121.9746797
+    ],
+    "lat": 37.235291,
+    "lon": -121.914181
+  },
+  "Los Angeles, California, United States": {
+    "center": [
+      34.0536909,
+      -118.242766
+    ],
+    "lat": 34.068921,
+    "lon": -118.445181
+  },
+  "Santa Monica, California, United States": {
+    "center": [
+      34.0194704,
+      -118.491227
+    ],
+    "lat": 34.009921,
+    "lon": -118.496006
+  },
+  "Los Banos, California, United States": {
+    "center": [
+      37.0592253,
+      -120.8505342
+    ],
+    "lat": 37.054716,
+    "lon": -121.015457
+  },
+  "Santa Clara, California, United States": {
+    "center": [
+      37.2333253,
+      -121.6846349
+    ],
+    "lat": 37.351416,
+    "lon": -121.982105
+  },
+  "Fremont, California, United States": {
+    "center": [
+      37.5482697,
+      -121.988571
+    ],
+    "lat": 37.548336,
+    "lon": -121.981613
+  },
+  "Santa Cruz, California, United States": {
+    "center": [
+      37.050096,
+      -121.99059
+    ],
+    "lat": 36.96431,
+    "lon": -122.018684
+  },
+  "Mountain View, California, United States": {
+    "center": [
+      37.3893889,
+      -122.0832101
+    ],
+    "lat": 37.391583,
+    "lon": -122.079583
+  },
+  "Sunnyvale, California, United States": {
+    "center": [
+      37.3688301,
+      -122.036349
+    ],
+    "lat": 37.351551,
+    "lon": -122.005669
+  },
+  "West Hollywood, California, United States": {
+    "center": [
+      34.0923014,
+      -118.3692894
+    ],
+    "lat": 34.095135,
+    "lon": -118.373928
+  },
+  "Milpitas, California, United States": {
+    "center": [
+      37.4332273,
+      -121.8989248
+    ],
+    "lat": 37.420375,
+    "lon": -121.878883
+  },
+  "San Carlos, California, United States": {
+    "center": [
+      37.504936,
+      -122.261823
+    ],
+    "lat": 37.497859,
+    "lon": -122.258705
+  },
+  "Redwood City, California, United States": {
+    "center": [
+      37.4863239,
+      -122.232523
+    ],
+    "lat": 37.486368,
+    "lon": -122.22885
+  },
+  "Stockton, California, United States": {
+    "center": [
+      37.9577016,
+      -121.290779
+    ],
+    "lat": 37.98493,
+    "lon": -121.336383
+  },
+  "Sacramento, California, United States": {
+    "center": [
+      38.5810606,
+      -121.493895
+    ],
+    "lat": 38.591484,
+    "lon": -121.438499
+  },
+  "Fairfield, California, United States": {
+    "center": [
+      38.2493581,
+      -122.039966
+    ],
+    "lat": 38.257305,
+    "lon": -122.06468
+  },
+  "Menlo Park, California, United States": {
+    "center": [
+      37.4519671,
+      -122.177992
+    ],
+    "lat": 37.483337,
+    "lon": -122.174676
+  },
+  "Auburn, California, United States": {
+    "center": [
+      38.8945939,
+      -121.0739897
+    ],
+    "lat": 38.903795,
+    "lon": -121.075857
+  },
+  "Truckee, California, United States": {
+    "center": [
+      39.327962,
+      -120.1832533
+    ],
+    "lat": 39.316417,
+    "lon": -120.287002
+  },
+  "Daly City, California, United States": {
+    "center": [
+      37.6904826,
+      -122.47267
+    ],
+    "lat": 37.663752,
+    "lon": -122.464588
+  },
+  "Romulus, Michigan, United States": {
+    "center": [
+      42.2222614,
+      -83.3965995
+    ],
+    "lat": 42.216249,
+    "lon": -83.355364
+  },
+  "Town of Cheektowaga, New York, United States": {
+    "center": [
+      42.9033917,
+      -78.7547536
+    ],
+    "lat": 42.939706,
+    "lon": -78.729507
+  },
+  "Buffalo, New York, United States": {
+    "center": [
+      42.8867166,
+      -78.8783922
+    ],
+    "lat": 42.947318,
+    "lon": -78.820943
+  },
+  "City of Syracuse, New York, United States": {
+    "center": [
+      43.0481221,
+      -76.1474244
+    ],
+    "lat": 43.076679,
+    "lon": -76.169024
+  },
+  "City of New York, New York, United States": {
+    "center": [
+      40.7127281,
+      -74.0060152
+    ],
+    "lat": 40.756901,
+    "lon": -73.99028
+  },
+  "Weehawken, New Jersey, United States": {
+    "center": [
+      40.7695457,
+      -74.0204177
+    ],
+    "lat": 40.776647,
+    "lon": -74.010713
+  },
+  "Union City, New Jersey, United States": {
+    "center": [
+      40.7795455,
+      -74.0237512
+    ],
+    "lat": 40.771163,
+    "lon": -74.027012
+  },
+  "Newark, New Jersey, United States": {
+    "center": [
+      40.735657,
+      -74.1723667
+    ],
+    "lat": 40.689531,
+    "lon": -74.174462
+  },
+  "Eggertsville, New York, United States": {
+    "center": [
+      42.9635834,
+      -78.8042021
+    ],
+    "lat": 42.982277,
+    "lon": -78.811717
+  },
+  "Town of Amherst, New York, United States": {
+    "center": [
+      42.9783924,
+      -78.7997616
+    ],
+    "lat": 42.97757,
+    "lon": -78.733083
+  },
+  ", New York, United States": {
+    "center": [
+      40.7127281,
+      -74.0060152
+    ],
+    "lat": 42.985378,
+    "lon": -78.694818
+  },
+  "Pacifica, California, United States": {
+    "center": [
+      37.5980374,
+      -122.4995234
+    ],
+    "lat": 37.594586,
+    "lon": -122.503707
+  },
+  "Half Moon Bay, California, United States": {
+    "center": [
+      37.4635519,
+      -122.428586
+    ],
+    "lat": 37.476076,
+    "lon": -122.448973
+  },
+  "Monterey, California, United States": {
+    "center": [
+      36.2231079,
+      -121.387742
+    ],
+    "lat": 36.618264,
+    "lon": -121.901792
+  },
+  "South San Francisco, California, United States": {
+    "center": [
+      37.6535403,
+      -122.4168664
+    ],
+    "lat": 37.645316,
+    "lon": -122.405677
+  },
+  "Denver, Colorado, United States": {
+    "center": [
+      39.7392364,
+      -104.984862
+    ],
+    "lat": 39.856363,
+    "lon": -104.676413
+  },
+  "City of Niagara Falls, New York, United States": {
+    "center": [
+      43.08436,
+      -79.0614686
+    ],
+    "lat": 43.09898,
+    "lon": -78.978167
+  },
+  "Town of Ithaca, New York, United States": {
+    "center": [
+      42.437417499999995,
+      -76.54837235139263
+    ],
+    "lat": 42.440326,
+    "lon": -76.565959
+  },
+  "City of Ithaca, New York, United States": {
+    "center": [
+      42.4396039,
+      -76.4968019
+    ],
+    "lat": 42.440372,
+    "lon": -76.512947
+  },
+  "Tonawanda Town, New York, United States": {
+    "center": [
+      42.9808457,
+      -78.8652223
+    ],
+    "lat": 43.0025,
+    "lon": -78.841111
+  },
+  "City of Tonawanda, New York, United States": {
+    "center": [
+      43.020679,
+      -78.878383
+    ],
+    "lat": 43.005477,
+    "lon": -78.823535
+  },
+  ", Bihar, India": {
+    "center": [
+      25.6440845,
+      85.906508
+    ],
+    "lat": 26.300155,
+    "lon": 85.136413
+  },
+  "Lakhisarai, Bihar, India": {
+    "center": [
+      25.1677639,
+      86.0593915399368
+    ],
+    "lat": 25.150109,
+    "lon": 86.092729
+  },
+  "Deoghar, Jharkhand, India": {
+    "center": [
+      24.4766423,
+      86.60673245386945
+    ],
+    "lat": 24.490326,
+    "lon": 86.700301
+  },
+  "Tarapith, West Bengal, India": {
+    "center": [
+      24.1151986,
+      87.7968683
+    ],
+    "lat": 24.113175,
+    "lon": 87.796677
+  },
+  "Tioga Township, Pennsylvania, United States": {
+    "center": [
+      41.8990105,
+      -77.08996254170461
+    ],
+    "lat": 41.900188,
+    "lon": -77.126013
+  },
+  ", Pennsylvania, United States": {
+    "center": [
+      40.9699889,
+      -77.7278831
+    ],
+    "lat": 39.942444,
+    "lon": -75.258395
+  },
+  "Philadelphia, Pennsylvania, United States": {
+    "center": [
+      39.9527237,
+      -75.1635262
+    ],
+    "lat": 39.9392,
+    "lon": -75.1978
+  },
+  "Severn, Maryland, United States": {
+    "center": [
+      39.1354665,
+      -76.70062377708201
+    ],
+    "lat": 39.129564,
+    "lon": -76.693217
+  },
+  ", Maryland, United States": {
+    "center": [
+      39.5162401,
+      -76.9382069
+    ],
+    "lat": 39.225103,
+    "lon": -76.663681
+  },
+  "Laurel, Maryland, United States": {
+    "center": [
+      39.0984317,
+      -76.8485094
+    ],
+    "lat": 39.096451,
+    "lon": -76.851066
+  },
+  "Washington, District of Columbia, United States": {
+    "center": [
+      38.8950368,
+      -77.0365427
+    ],
+    "lat": 38.895701,
+    "lon": -77.043735
+  },
+  "Alexandria, Virginia, United States": {
+    "center": [
+      38.8051095,
+      -77.0470229
+    ],
+    "lat": 38.839596,
+    "lon": -77.062315
+  },
+  "Cumberland Township, Pennsylvania, United States": {
+    "center": [
+      39.80507485,
+      -77.24838676598978
+    ],
+    "lat": 39.807636,
+    "lon": -77.235208
+  },
+  "Gettysburg, Pennsylvania, United States": {
+    "center": [
+      39.8308973,
+      -77.231012
+    ],
+    "lat": 39.811558,
+    "lon": -77.225998
+  },
+  "Lawrence Township, Pennsylvania, United States": {
+    "center": [
+      41.079012000000006,
+      -78.4551409993843
+    ],
+    "lat": 41.03801,
+    "lon": -78.398852
+  },
+  "Huston Township, Pennsylvania, United States": {
+    "center": [
+      41.1935115,
+      -78.56964308860958
+    ],
+    "lat": 41.208047,
+    "lon": -78.575248
+  },
+  "Rantoul, Illinois, United States": {
+    "center": [
+      40.3083672,
+      -88.1558785
+    ],
+    "lat": 40.305748,
+    "lon": -88.178832
+  },
+  "Urbana, Illinois, United States": {
+    "center": [
+      40.1117174,
+      -88.207301
+    ],
+    "lat": 40.101952,
+    "lon": -88.227161
+  },
+  "Champaign, Illinois, United States": {
+    "center": [
+      40.1164841,
+      -88.2430932
+    ],
+    "lat": 40.110412,
+    "lon": -88.235658
+  },
+  "Dayton, Ohio, United States": {
+    "center": [
+      39.7589478,
+      -84.1916069
+    ],
+    "lat": 39.759328,
+    "lon": -84.170026
+  },
+  "Kettering, Ohio, United States": {
+    "center": [
+      39.6895036,
+      -84.1688274
+    ],
+    "lat": 39.701946,
+    "lon": -84.126088
+  },
+  "Charleston, West Virginia, United States": {
+    "center": [
+      38.3505995,
+      -81.6332812
+    ],
+    "lat": 38.373419,
+    "lon": -81.662129
+  },
+  "Charlottesville, Virginia, United States": {
+    "center": [
+      38.029306,
+      -78.4766781
+    ],
+    "lat": 38.011834,
+    "lon": -78.502528
+  },
+  ", Virginia, United States": {
+    "center": [
+      37.1232245,
+      -78.4927721
+    ],
+    "lat": 38.011213,
+    "lon": -78.499139
+  },
+  "Glen Allen, Virginia, United States": {
+    "center": [
+      37.664879,
+      -77.48712356574592
+    ],
+    "lat": 37.684244,
+    "lon": -77.591146
+  },
+  "Short Pump, Virginia, United States": {
+    "center": [
+      37.66497325,
+      -77.62949572725336
+    ],
+    "lat": 37.660942,
+    "lon": -77.628494
+  },
+  "Norfolk, Virginia, United States": {
+    "center": [
+      36.8493695,
+      -76.2899539
+    ],
+    "lat": 36.845326,
+    "lon": -76.294023
+  },
+  "Richmond, Virginia, United States": {
+    "center": [
+      37.5385087,
+      -77.43428
+    ],
+    "lat": 37.560071,
+    "lon": -77.463293
+  },
+  "Tuckahoe, Virginia, United States": {
+    "center": [
+      37.5945296,
+      -77.58034193716132
+    ],
+    "lat": 37.606879,
+    "lon": -77.578342
+  },
+  "Charlotte, North Carolina, United States": {
+    "center": [
+      35.2272086,
+      -80.8430827
+    ],
+    "lat": 35.214476,
+    "lon": -80.948757
+  },
+  "Katra, Jammu and Kashmir, India": {
+    "center": [
+      32.9924858,
+      74.9318127
+    ],
+    "lat": 32.990781,
+    "lon": 74.932897
+  },
+  "Kushinagar, Uttar Pradesh, India": {
+    "center": [
+      26.92426115,
+      83.83244650333145
+    ],
+    "lat": 26.747165,
+    "lon": 83.898876
+  },
+  "Bengaluru, Karnataka, India": {
+    "center": [
+      12.98815675,
+      77.62260003796
+    ],
+    "lat": 13.198909,
+    "lon": 77.706813
+  },
+  ", Karnataka, India": {
+    "center": [
+      14.5203896,
+      75.7223521
+    ],
+    "lat": 15.397583,
+    "lon": 75.005204
+  },
+  "Vindhyachal, Uttar Pradesh, India": {
+    "center": [
+      25.1643804,
+      82.5043173
+    ],
+    "lat": 25.164378,
+    "lon": 82.506117
+  },
+  "Gopiganj, Uttar Pradesh, India": {
+    "center": [
+      25.2844591,
+      82.4326002
+    ],
+    "lat": 25.289093,
+    "lon": 82.39793
+  },
+  ", Goa, India": {
+    "center": [
+      15.3004543,
+      74.0855134
+    ],
+    "lat": 15.262428,
+    "lon": 73.929299
+  },
+  "Ayodhya, Uttar Pradesh, India": {
+    "center": [
+      26.6382763,
+      82.05850340767219
+    ],
+    "lat": 26.809349,
+    "lon": 82.205889
+  },
+  "Dwarka, Delhi, India": {
+    "center": [
+      28.6149362,
+      77.0227628
+    ],
+    "lat": 28.544886,
+    "lon": 77.047647
+  },
+  ", Illinois, United States": {
+    "center": [
+      40.0796606,
+      -89.4337288
+    ],
+    "lat": 41.000305,
+    "lon": -87.908503
+  },
+  "Indianapolis, Indiana, United States": {
+    "center": [
+      39.7683331,
+      -86.1583502
+    ],
+    "lat": 39.82304,
+    "lon": -86.269011
+  },
+  ", Kentucky, United States": {
+    "center": [
+      37.5726028,
+      -85.1551411
+    ],
+    "lat": 37.133736,
+    "lon": -85.976355
+  },
+  "Glasgow, Kentucky, United States": {
+    "center": [
+      36.995906,
+      -85.9124842
+    ],
+    "lat": 37.021152,
+    "lon": -85.937515
+  },
+  "Bowling Green, Kentucky, United States": {
+    "center": [
+      36.9903199,
+      -86.4436018
+    ],
+    "lat": 36.966583,
+    "lon": -86.433089
+  },
+  "Schiller Park, Illinois, United States": {
+    "center": [
+      41.9558637,
+      -87.8708965
+    ],
+    "lat": 41.952885,
+    "lon": -87.885006
+  },
+  "Lombard, Illinois, United States": {
+    "center": [
+      41.8864687,
+      -88.0201536
+    ],
+    "lat": 41.884891,
+    "lon": -88.020465
+  },
+  "Gary, Indiana, United States": {
+    "center": [
+      41.6020962,
+      -87.3370646
+    ],
+    "lat": 41.596147,
+    "lon": -87.265635
+  },
+  "Green Bay, Wisconsin, United States": {
+    "center": [
+      44.5126379,
+      -88.0125794
+    ],
+    "lat": 44.512112,
+    "lon": -87.966033
+  },
+  "Menominee, Michigan, United States": {
+    "center": [
+      45.5785741,
+      -87.562159
+    ],
+    "lat": 45.119097,
+    "lon": -87.612775
+  },
+  ", Michigan, United States": {
+    "center": [
+      43.6211955,
+      -84.6824346
+    ],
+    "lat": 46.194813,
+    "lon": -86.982087
+  },
+  "Munising, Michigan, United States": {
+    "center": [
+      46.4100035,
+      -86.6494698
+    ],
+    "lat": 46.409836,
+    "lon": -86.652122
+  },
+  "St. James, Missouri, United States": {
+    "center": [
+      37.9970626,
+      -91.6139952
+    ],
+    "lat": 37.997642,
+    "lon": -91.61493
+  },
+  "Rolla, Missouri, United States": {
+    "center": [
+      37.9509324,
+      -91.7708076
+    ],
+    "lat": 37.958173,
+    "lon": -91.772803
+  },
+  "Springfield, Missouri, United States": {
+    "center": [
+      37.2081729,
+      -93.2922715
+    ],
+    "lat": 37.253386,
+    "lon": -93.265422
+  },
+  "Wagoner, Oklahoma, United States": {
+    "center": [
+      35.9542216,
+      -95.5636238
+    ],
+    "lat": 35.962342,
+    "lon": -95.394043
+  },
+  "Denison, Texas, United States": {
+    "center": [
+      33.7556593,
+      -96.536658
+    ],
+    "lat": 33.818745,
+    "lon": -96.536132
+  },
+  "Dallas, Texas, United States": {
+    "center": [
+      32.7762719,
+      -96.7968559
+    ],
+    "lat": 32.945563,
+    "lon": -96.821866
+  },
+  "Addison, Texas, United States": {
+    "center": [
+      32.960477850000004,
+      -96.8300673063398
+    ],
+    "lat": 32.943947,
+    "lon": -96.854766
+  },
+  "Richardson, Texas, United States": {
+    "center": [
+      32.9481789,
+      -96.7297206
+    ],
+    "lat": 32.946368,
+    "lon": -96.69845
+  },
+  "Irving, Texas, United States": {
+    "center": [
+      32.8295183,
+      -96.9442177
+    ],
+    "lat": 32.923655,
+    "lon": -96.954634
+  },
+  "Plano, Texas, United States": {
+    "center": [
+      33.0136764,
+      -96.6925096
+    ],
+    "lat": 33.088122,
+    "lon": -96.797512
+  },
+  "Garland, Texas, United States": {
+    "center": [
+      32.912624,
+      -96.6388833
+    ],
+    "lat": 32.862812,
+    "lon": -96.650002
+  },
+  "The Colony, Texas, United States": {
+    "center": [
+      33.0890094,
+      -96.8863922
+    ],
+    "lat": 33.09933,
+    "lon": -96.884555
+  },
+  "Frisco, Texas, United States": {
+    "center": [
+      33.1505998,
+      -96.8238183
+    ],
+    "lat": 33.152891,
+    "lon": -96.888239
+  },
+  ", Texas, United States": {
+    "center": [
+      31.2638905,
+      -98.5456116
+    ],
+    "lat": 32.709799,
+    "lon": -97.139482
+  },
+  "Decatur, Texas, United States": {
+    "center": [
+      33.2342834,
+      -97.5861393
+    ],
+    "lat": 33.230801,
+    "lon": -97.596042
+  },
+  "Vernon, Texas, United States": {
+    "center": [
+      34.1513105,
+      -99.2860857
+    ],
+    "lat": 34.158989,
+    "lon": -99.284879
+  },
+  "Clarendon, Texas, United States": {
+    "center": [
+      34.9359346,
+      -100.8905829
+    ],
+    "lat": 34.939777,
+    "lon": -100.891054
+  },
+  "Amarillo, Texas, United States": {
+    "center": [
+      35.20729,
+      -101.8371192
+    ],
+    "lat": 35.208592,
+    "lon": -101.884339
+  },
+  ", New Mexico, United States": {
+    "center": [
+      34.5802074,
+      -105.996047
+    ],
+    "lat": 35.109579,
+    "lon": -103.331439
+  },
+  "Santa Rosa, New Mexico, United States": {
+    "center": [
+      34.93867,
+      -104.682489
+    ],
+    "lat": 34.944163,
+    "lon": -104.640652
+  },
+  "Albuquerque, New Mexico, United States": {
+    "center": [
+      35.0841034,
+      -106.650985
+    ],
+    "lat": 35.079803,
+    "lon": -106.51464
+  },
+  "Gallup, New Mexico, United States": {
+    "center": [
+      35.5283506,
+      -108.743907
+    ],
+    "lat": 35.505819,
+    "lon": -108.836156
+  },
+  "Flagstaff, Arizona, United States": {
+    "center": [
+      35.1987522,
+      -111.651822
+    ],
+    "lat": 35.223509,
+    "lon": -111.580546
+  },
+  ", Arizona, United States": {
+    "center": [
+      34.395342,
+      -111.763275
+    ],
+    "lat": 35.312562,
+    "lon": -112.855314
+  },
+  "Henderson, Nevada, United States": {
+    "center": [
+      36.0301134,
+      -114.9826194
+    ],
+    "lat": 36.069921,
+    "lon": -115.037888
+  },
+  "Las Vegas, Nevada, United States": {
+    "center": [
+      36.1672559,
+      -115.148516
+    ],
+    "lat": 36.121174,
+    "lon": -115.169653
+  },
+  "Paradise, Nevada, United States": {
+    "center": [
+      36.1011223,
+      -115.1479329
+    ],
+    "lat": 36.12239,
+    "lon": -115.167424
+  },
+  ", Nevada, United States": {
+    "center": [
+      39.5158825,
+      -116.853722
+    ],
+    "lat": 36.64383,
+    "lon": -116.395986
+  },
+  "Mammoth Lakes, California, United States": {
+    "center": [
+      37.6432525,
+      -118.9668509
+    ],
+    "lat": 37.629168,
+    "lon": -118.98309
+  },
+  "Bishop, California, United States": {
+    "center": [
+      37.363679,
+      -118.39524
+    ],
+    "lat": 37.373471,
+    "lon": -118.391498
+  },
+  "Beatty, Nevada, United States": {
+    "center": [
+      36.9084224,
+      -116.759275
+    ],
+    "lat": 36.908796,
+    "lon": -116.758556
+  },
+  "Saint George, Utah, United States": {
+    "center": [
+      37.104153,
+      -113.584131
+    ],
+    "lat": 37.105654,
+    "lon": -113.553228
+  },
+  ", Utah, United States": {
+    "center": [
+      39.4225192,
+      -111.714358
+    ],
+    "lat": 37.009174,
+    "lon": -112.960239
+  },
+  "Page, Arizona, United States": {
+    "center": [
+      36.9148305,
+      -111.457294
+    ],
+    "lat": 36.902598,
+    "lon": -111.411168
+  },
+  "Chinle / Ch\u02bc\u00edn\u00edl\u012f\u0301, Arizona, United States": {
+    "center": [
+      36.1621322,
+      -109.581273
+    ],
+    "lat": 36.161231,
+    "lon": -109.582697
+  },
+  "Memphis, Texas, United States": {
+    "center": [
+      34.7253581,
+      -100.540097
+    ],
+    "lat": 34.729031,
+    "lon": -100.538992
+  },
+  "Farmers Branch, Texas, United States": {
+    "center": [
+      32.9265668,
+      -96.8960916
+    ],
+    "lat": 32.940538,
+    "lon": -96.82279
+  },
+  "Carrollton, Texas, United States": {
+    "center": [
+      32.9537349,
+      -96.8902816
+    ],
+    "lat": 32.985797,
+    "lon": -96.842941
+  },
+  "Flower Mound, Texas, United States": {
+    "center": [
+      33.0283854,
+      -97.0867203
+    ],
+    "lat": 32.988277,
+    "lon": -97.068353
+  },
+  "Wichita Falls, Texas, United States": {
+    "center": [
+      33.9004572,
+      -98.5020777
+    ],
+    "lat": 33.924072,
+    "lon": -98.513421
+  },
+  "Raton, New Mexico, United States": {
+    "center": [
+      36.8979234,
+      -104.4354816
+    ],
+    "lat": 36.885551,
+    "lon": -104.435781
+  },
+  "Colorado Springs, Colorado, United States": {
+    "center": [
+      38.8339578,
+      -104.825348
+    ],
+    "lat": 38.815481,
+    "lon": -104.761711
+  },
+  ", Colorado, United States": {
+    "center": [
+      38.7251776,
+      -105.607716
+    ],
+    "lat": 38.840871,
+    "lon": -105.04226
+  },
+  "Estes Park, Colorado, United States": {
+    "center": [
+      40.336359,
+      -105.5310748684665
+    ],
+    "lat": 40.376209,
+    "lon": -105.521664
+  },
+  "Lakewood, Colorado, United States": {
+    "center": [
+      39.7085736,
+      -105.0846694
+    ],
+    "lat": 39.698528,
+    "lon": -105.14563
+  },
+  "Childress, Texas, United States": {
+    "center": [
+      34.519656850000004,
+      -100.20676557187427
+    ],
+    "lat": 34.435425,
+    "lon": -100.2305
+  },
+  "Little Rock, Arkansas, United States": {
+    "center": [
+      34.7465071,
+      -92.2896267
+    ],
+    "lat": 34.756161,
+    "lon": -92.425075
+  },
+  "Hot Springs, Arkansas, United States": {
+    "center": [
+      34.5038393,
+      -93.0552437
+    ],
+    "lat": 34.516685,
+    "lon": -93.053171
+  }
+}
