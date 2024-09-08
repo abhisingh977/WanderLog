@@ -43,9 +43,7 @@
         <!-- Mobile menu -->
         <div class="hidden mobile-menu">
             <ul class="">
-
-                <li><a href="#" class="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300">My Trips</a></li>
-
+                <li><a href="#" class="block text-sm px-2 py-4 hover:bg-blue-500 hover:text-white transition duration-300" onclick="toggleMyTrips(); toggleMobileMenu();">My Trips</a></li>
             </ul>
         </div>
     </nav>
@@ -109,7 +107,7 @@
     </div>
 
     <footer class="bg-white shadow-lg mt-auto">
-        <div class="max-w-6xl mx-auto px-4 py-8">
+        <div class="max-w-6xl mx-auto px-2 py-4">
             <p class="text-center text-gray-500">&copy; 2023 WanderLog. All rights reserved.</p>
         </div>
     </footer>
@@ -155,13 +153,16 @@
             myTrips.classList.toggle('hidden');
         }
 
+        function toggleMobileMenu() {
+            const menu = document.querySelector(".mobile-menu");
+            menu.classList.toggle("hidden");
+        }
+
         // Mobile menu toggle
         const btn = document.querySelector("button.mobile-menu-button");
         const menu = document.querySelector(".mobile-menu");
 
-        btn.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
-        });
+        btn.addEventListener("click", toggleMobileMenu);
     </script>
 
 </body>
