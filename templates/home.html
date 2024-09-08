@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 min-h-screen">
+<body class="bg-gray-100 flex flex-col min-h-screen">
     <nav class="bg-white shadow-lg">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between">
@@ -20,11 +20,7 @@
                     </div>
                 </div>
                 <div class="hidden md:flex items-center space-x-3">
-                    <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300">Home</a>
                     <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300" onclick="toggleMyTrips()">My Trips</a>
-                    <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300">Add Trip</a>
-                    <a href="#" class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-blue-500 hover:text-white transition duration-300">Profile</a>
-                    <a href="#" class="py-2 px-2 font-medium text-white bg-blue-500 rounded hover:bg-blue-600 transition duration-300">Log Out</a>
                 </div>
                 <!-- Mobile menu button -->
                 <div class="md:hidden flex items-center">
@@ -57,18 +53,15 @@
     </nav>
 
     <!-- Main content -->
-    <div id="main-content">
-        <div class="max-w-6xl mx-auto mt-8 px-4">
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                <div class="p-4 border-b bg-gray-50">
-                    <h2 class="text-2xl font-semibold text-gray-800">My Wander Log</h2>
-                </div>
-                <div class="p-4">
-                    <div class="aspect-w-16 aspect-h-9">
-                        <iframe src="{{ url_for('static', filename='interactive_world_map2.html') }}" class="w-full h-[600px] border-0 rounded-lg shadow-md" allowfullscreen></iframe>
-                    </div>
+    <div id="main-content" class="flex-grow flex flex-col">
+        <div class="flex-grow flex flex-col p-4">
+
+            <div class="flex-grow p-4 flex flex-col">
+                <div class="flex-grow relative w-full h-full">
+                    <iframe src="{{ url_for('static', filename='interactive_world_map2.html') }}" class="absolute inset-0 w-full h-full border-0 rounded-lg shadow-md" allowfullscreen></iframe>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -117,7 +110,7 @@
         </div>
     </div>
 
-    <footer class="bg-white shadow-lg mt-8">
+    <footer class="bg-white shadow-lg mt-auto">
         <div class="max-w-6xl mx-auto px-4 py-8">
             <p class="text-center text-gray-500">&copy; 2023 WanderLog. All rights reserved.</p>
         </div>
@@ -130,6 +123,7 @@
                 state,
                 country
             });
+            toggleMyTrips(); // Close the My Trips section
         }
 
         function zoomToState(state, country) {
@@ -137,12 +131,14 @@
                 state,
                 country
             });
+            toggleMyTrips(); // Close the My Trips section
         }
 
         function zoomToCountry(country) {
             sendZoomMessage('zoomToCountry', {
                 country
             });
+            toggleMyTrips(); // Close the My Trips section
         }
 
         function sendZoomMessage(action, data) {
@@ -157,13 +153,8 @@
             const mainContent = document.getElementById('main-content');
             const myTrips = document.getElementById('my-trips');
 
-            if (myTrips.classList.contains('hidden')) {
-                mainContent.classList.add('hidden');
-                myTrips.classList.remove('hidden');
-            } else {
-                mainContent.classList.remove('hidden');
-                myTrips.classList.add('hidden');
-            }
+            mainContent.classList.toggle('hidden');
+            myTrips.classList.toggle('hidden');
         }
 
         // Mobile menu toggle
