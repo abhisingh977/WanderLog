@@ -15,8 +15,8 @@ RUN pip install -r requirements.txt
 # Install the required packages
 # RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
-# Make port 8000 available to the world outside this container
-EXPOSE 8000
+# Make port 8080 available to the world outside this container
+EXPOSE 8080
 
 # Run gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "main:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--log-level", "info", "main:app"]
